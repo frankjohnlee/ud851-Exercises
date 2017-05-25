@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         // COMPLETED (5) Loop through each toy and append the name to the TextView (add \n for spacing)
         int index = 0;
         String outputString = "";
-        while (index <= thisToyNameArray.length){
+        while (index <= thisToyNameArray.length - 1){
             outputString += thisToyNameArray[index] + "\n";
             index ++;
         }
